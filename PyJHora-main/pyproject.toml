@@ -25,6 +25,9 @@ classifiers = [
 "jhora.images" = ["*"]
 "jhora.tests" = ["*"]
 "*" = ["*.txt", "*.csv","*.md", "*.json"]
+
+[project.scripts]
+jhora-cli = "jhora.cli:main"
 [project.urls]
 homepage = "https://github.com/naturalstupid/pyjhora"
 repository = "https://github.com/naturalstupid/pyjhora"
